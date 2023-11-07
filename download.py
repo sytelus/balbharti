@@ -3,6 +3,7 @@ from PyPDF2 import PdfReader
 from pdf2image import convert_from_path
 import pytesseract
 import os
+import logging
 
 # Define Constants
 BASE_URL = 'https://books.ebalbharati.in/archives/Books/{}.pdf'
@@ -11,25 +12,30 @@ LOG_FILE = 'download_status.log'
 HTML_FILE = 'index.html'
 MAX_INDEX = 1200
 
+logging.basicConfig(filename='download.log', level=logging.DEBUG)
+
 # Check if directory exists
 if not os.path.exists(DIRECTORY):
     os.mkdir(DIRECTORY)
 
 # Check for log file
-starting_index = 1
+starting_index = 812
 if os.path.exists(LOG_FILE):
     with open(LOG_FILE, 'r') as log:
         lines = log.readlines()
         if lines:
-            last_url = lines[-1].split('\t')[1].strip()
-            starting_index = int(last_url.split('/')[-1].split('.')[0]) + 1
+            for line in lines:
+                last_url = line.split('\t')[1].strip()
+                starting_index = max(starting_index, int(last_url.split('/')[-1].split('.')[0])+1)
 
 with open(LOG_FILE, 'a') as log:
     for index in range(starting_index, MAX_INDEX):
         url = BASE_URL.format(index)
         response = requests.get(url, stream=True)
 
+        logging.info(f"{response.status_code}\t{url}")
         log.write(f"{response.status_code}\t{url}\n")
+        log.flush()
 
         # Only process if successful
         if response.status_code == 200:
