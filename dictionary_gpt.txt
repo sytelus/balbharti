@@ -1,0 +1,113 @@
+अकोला	Akola
+अमरावती	Amravati
+अहमदनगर	Ahmednagar
+उसमानाबाद	Osmanabad
+उस्मानाबाद	Usmanabad
+औरंगाबाद	Aurangabad
+कुलाबा	Kulaba
+कोल्हापूर	Kolhapur
+गडचिरोली	Gadchiroli
+गोंदिया	Gondia
+गोवा	Goa
+चंद्रपूर	Chandrapur
+जळगाव	Jalgaon
+जालना	Jalna
+ठाणे	Thane
+धुळे	Dhule
+नंदुरबार	Nandurbar
+नांदेड	Nanded
+नागपूर	Nagpur
+नाशिक	Nashik
+परभणी	Parbhani
+पुणे	Pune
+बीड	Beed
+बुलढाणा	Buldhana
+भंडारा	Bhandara
+भांडारा	Bhandara
+भाग	Part
+भाग-१	Part-1
+भाग-२	Part-2
+मुंबई	Mumbai
+यवतमाळ	Yavatmal
+रत्नागिरी	Ratnagiri
+रायगड	Raigad
+लातूर	Latur
+वर्धा	Wardha
+वाशिम	Washim
+सांगली	Sangli
+सातरा	Satara
+सातारा	Satara
+सिंधूदुर्ग	Sindhudurg
+सु.आ.	Su-aa
+(सु.आ.)	(Su-aa)
+सोलापूर	Solapur
+हिंगोली	Hingoli
+5 th	5th
+6 th	6th
+7 th	7th
+Biology	Biology
+Book	Book
+Chemistry	Chemistry
+English	English
+Learning	Learning
+My	My
+Physics	Physics
+Readers	Readers
+अरेबिया	Arabia
+अर्धमागधी	Ardhamagadhi
+इंग्रजी	English
+इंग्लिश	English
+इतिहास	History
+उर्दु	Urdu
+उर्दू	Urdu
+कन्नड	Kannada
+गणित	Mathematics
+गुजराती	Gujarati
+जिल्हा	District
+जीवशास्त्र	Biology
+तारुफे	Introductions
+तेलुगु	Telugu
+तेलुगू	Telugu
+नागरिक	Citizen
+परिचय	Introduction
+पर्शियन	Persian
+पालि-पवेसिका	Pali Paveshika
+पालि-पवेसो	Pali Paveso
+प्रयोगातून	Experimentation
+प्रवेश	Admission
+प्रवेशिका	Entrance
+बालभारती	Balbharati
+बिदायतुल	Bidayatul
+भाषा	Language
+भूगोल	Geography
+भौतिकशास्त्र	Physics
+मराठी	Marathi
+रसायनशास्त्र	Chemistry
+वाचनपाठ	Reading Lesson
+विज्ञान	Science
+व्याकरण	Grammar
+शास्त्र	Shashtra
+संस्कृत-प्रवेश	Sanskrit Introduction
+संस्कृत-प्रवेशिका	Sanskrit Primer
+सामान्य	General
+साहित्य	Literature
+सिंधी(अरे)	Sindhi(Are)
+सिंधी(देव)	Sindhi(Dev)
+सुगभभारती	Sugabh Bharati
+सुगम	Easy
+सुगमभारती	Sugam Bharati
+सुबोध	Subodh
+सुलभ	Simple
+सुलभ/सुगम	Sulabha
+सुलभभारती	Sulabh Bharati
+हिंदी	Hindi
+१ ली	1st
+१	1
+२ री	2nd
+२	2
+३ री	3rd
+४ थी	4th
+५ वी	5th
+६ वी	6th
+७ वी	7th
+८ वी	8th
